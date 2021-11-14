@@ -1,11 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-// @Route   GET api/profile
+// @route   GET api/profile
 // @desc    Test route
 // @access  Public
-router.get('/', (req, res) => {
-  res.send('Profile Route');
+router.post('/', (req, res) => {
+  console.log(req.body);
+  res.send('mamalo');
 });
 
 module.exports = router;
