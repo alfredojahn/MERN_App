@@ -8,7 +8,7 @@ const jwt = require('jsonwebtoken');
 const config = require('config');
 
 // @route   POST api/users
-// @desc    Test route
+// @desc    Create New User
 // @access  Public
 router.post(
   '/',
@@ -65,7 +65,7 @@ router.post(
         payload,
         config.get('jwtSecret'),
         {
-          expiresIn: 36000,
+          expiresIn: 36000000,
         },
         (err, token) => {
           if (err) throw err;
