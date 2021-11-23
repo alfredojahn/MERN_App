@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://mrjahn:33823382@cluster0.jzyga.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "jwtSecret": "ohmalordthecableturnedoff" 
+    "jwtSecret": "ohmalordthecableturnedoff",
+    "githubClientID": "fd1d621ffd933c054264",
+    "githubClientSecret": "b59fe53be169c96724e61a93702a7e746dc27b44"
 }
